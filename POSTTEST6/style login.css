@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+/* LAYAR DALAM */
+.layar-dalam {
+    width: 1000px;
+    margin: auto;
+}
+
+/* LOGIN */
+.box-login {
+    width: 30%;
+    min-height: 200px;
+    padding: 2%;
+    border: 5px solid #fff;
+    background-color: darkseagreen;
+}
+.box-login input[type=text],
+.box-login input[type=date],
+.box-login input[type=password]
+{
+    width: 80%;
+    height: 40px;
+    padding-left: 2%;
+    font-size: 17px;
+    margin: 2% 0;
+}
+.box-login input[type=submit]{
+    width: 30%;
+    height: 40px;
+    padding-left: 1%;
+    font-size: 15px;
+    background-color:lightblue;
+    cursor: pointer;
+}
+
+/* HAL LOGIN */
+.box-hal-login {
+    width: 30%;
+    min-height: 300px;
+    padding: 2%;
+    border: 5px solid #fff;
+    background-color:lightblue;
+}
+.box-hal-login input[type=text],
+.box-hal-login input[type=date],
+.box-hal-login input[type=password]
+{
+    width: 80%;
+    height: 30px;
+    padding-left: 1%;
+    font-size: 17px;
+    margin: 2% 0;
+}
+.box-hal-login input[type=submit],
+.box-hal-login input[type=reset]
+{
+    width: 30%;
+    height: 40px;
+    padding-left: 1%;
+    font-size: 15px;
+    background-color:khaki;
+    cursor: pointer;
+}
+.box-hal-login input[type=radio]{
+    width: 5%;
+}
